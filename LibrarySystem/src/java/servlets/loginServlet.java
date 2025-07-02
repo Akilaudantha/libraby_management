@@ -80,11 +80,25 @@ public class loginServlet extends HttpServlet {
         
         userDAO d = new userDAO();
         
+        
+        
         if (d.validateUser(user, pw))
         {
             HttpSession session= request.getSession();
-            session.setAttribute("username", user);
+            session.setAttribute("user", user);
             response.sendRedirect("Home.jsp");
+        }
+        else if(d.validateAdmin(user,pw))
+        {
+            HttpSession session= request.getSession();
+            session.setAttribute("admin", user);
+            response.sendRedirect("AdminPanel.html");
+        }
+        else if(d.validateLibrian(user,pw))
+        {
+            HttpSession session= request.getSession();
+            session.setAttribute("librian", d);
+            response.sendRedirect("LibraryPanel.html");
         }
         else
         {

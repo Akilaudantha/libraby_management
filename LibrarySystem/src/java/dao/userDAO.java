@@ -64,4 +64,47 @@ public class userDAO {
         
     }
     
+    public boolean validateAdmin(String user,String pw)
+    {
+        String q3= "Select * from Admin WHERE username=? AND password=?";
+        try
+        {
+            Connection con=DBConnection.createconnection();
+            PreparedStatement p3=con.prepareStatement(q3);
+            
+            p3.setString(1, user);
+            p3.setString(2, pw);
+            
+            ResultSet rs = p3.executeQuery();
+            return rs.next();
+            
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            return false;
+        }
+    }
+    public boolean validateLibrian(String user,String pw)
+    {
+        String q4= "Select * from Librian WHERE username=? AND password=?";
+        try
+        {
+            Connection con=DBConnection.createconnection();
+            PreparedStatement p4=con.prepareStatement(q4);
+            
+            p4.setString(1, user);
+            p4.setString(2, pw);
+            
+            ResultSet rs = p4.executeQuery();
+            return rs.next();
+            
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            return false;
+        }
+    }
+    
 }
