@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/src/java/dao/userDAO.java</file>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/web/index.html</file>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/src/java/model/user.java</file>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/src/java/servlets/loginServlet.java</file>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/src/java/util/DBConnection.java</file>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/src/java/servlets/signupServlet.java</file>
-            <file>file:/D:/Projects/Java%20web/LibrarySystem/web/signup.html</file>
+            <file>file:/D:/Projects/Java%20web/Library_Management/libraby_management/LibrarySystem/src/java/dao/userDAO.java</file>
+            <file>file:/D:/Projects/Java%20web/Library_Management/libraby_management/LibrarySystem/src/java/servlets/loginServlet.java</file>
+            <file>file:/D:/Projects/Java%20web/Library_Management/libraby_management/LibrarySystem/web/LibraryPanel.html</file>
+            <file>file:/D:/Projects/Java%20web/Library_Management/libraby_management/LibrarySystem/web/AdminPanel.html</file>
+            <file>file:/D:/Projects/Java%20web/Library_Management/libraby_management/LibrarySystem/web/index.html</file>
+            <file>file:/D:/Projects/Java%20web/Library_Management/libraby_management/LibrarySystem/web/Home.jsp</file>
         </group>
     </open-files>
 </project-private>
